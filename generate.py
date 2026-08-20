@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html_content = """<!DOCTYPE html>
 <html lang="mg">
 <head>
     <meta charset="UTF-8">
@@ -65,4 +65,8 @@
         <div class="card"><img src="dog.png" alt="Alika kely"><p>Alika kely</p></div>
     </div>
 </body>
-</html>
+</html>"""
+
+with open('index.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+print("✅ Vita! Ny index.html dia voasoratra soa aman-tsara.")
